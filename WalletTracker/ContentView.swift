@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var expenses: [ExpenseModel] = [] // Массив для хранения трат
+    @State private var expenses: [ExpenseModel] = [ ] // Массив для хранения трат
     @State private var budget: Double = 1000.0 // Общая сумма бюджета
     @State private var isAddingExpense = false
     @State private var isEditingBudget = false
